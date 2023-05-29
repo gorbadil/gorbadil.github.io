@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Ersin Mutlu</title>
   </head>
@@ -20,6 +24,7 @@
       <a class="nav-link" href="#footer">Contact</a>
     </nav>
     <section id="welcome-section">
+      <div class="welcome-mask"></div>
       <h1>Hi! I'm Ersin</h1>
       <p>a Front-End Developer</p>
       <div class="logos">
@@ -39,62 +44,135 @@
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png?20220125121207"
           alt=""
         />
-        <img
+        <!-- <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Git-icon-white.svg/640px-Git-icon-white.svg.png"
           alt=""
-        />
+        /> -->
       </div>
     </section>
     <section id="projects">
-      <h1 class="project-tile">Projects</h1>
+      <h1 class="project-title">Projects</h1>
       <div class="project-showcase">
-        <a href=""
+        <a
+          href="https://survey.ersinm.com"
+          target="_blank"
+          class="card-a"
+          id="survey"
           ><div class="card">
-            <img src="https://picsum.photos/id/237/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
+            <img
+              class="product-image"
+              src="https://drive.google.com/uc?export=view&id=13Nw5dBP59jX44_MHKaHUaD7cZp_AE0GQ"
+              alt="Survey Form Image"
+            />
+            <h3 class="title">Survey Form</h3>
+            <div class="for-box">
+              <img
+                class="freecodeimg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/640px-FreeCodeCamp_logo.svg.png"
+                alt=""
+              />
+            </div>
+            <div class="tech-box">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div></a
         >
-        <a href=""
+        <a href="https://tribute.ersinm.com" target="_blank" class="card-a"
           ><div class="card">
-            <img src="https://picsum.photos/id/238/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
+            <img
+              class="product-image"
+              src="https://drive.google.com/uc?export=view&id=1JjorOVx9aO_q2XIBzXVQ2q-rOzzNltmo"
+              alt="Tribute Page Image"
+            />
+            <h3 class="title">Tribute Page</h3>
+            <div class="for-box">
+              <img
+                class="freecodeimg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/640px-FreeCodeCamp_logo.svg.png"
+                alt=""
+              />
+            </div>
+            <div class="tech-box">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div></a
         >
-        <a href=""
+        <a href="https://product.ersinm.com" target="_blank" class="card-a"
           ><div class="card">
-            <img src="https://picsum.photos/id/239/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
+            <img
+              class="product-image"
+              src="https://drive.google.com/uc?export=view&id=1lj1Bn2QuUDy5IDWUc5sm9_Eii-F1jic8"
+              alt="Product Landing Page Image"
+            />
+            <h3 class="title">Product Landing Page</h3>
+            <div class="for-box">
+              <img
+                class="freecodeimg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/640px-FreeCodeCamp_logo.svg.png"
+                alt=""
+              />
+            </div>
+            <div class="tech-box">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div></a
         >
-        <a href=""
+        <a href="https://technical.ersinm.com" target="_blank" class="card-a"
           ><div class="card">
-            <img src="https://picsum.photos/id/257/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
-          </div></a
-        >
-        <a href=""
-          ><div class="card">
-            <img src="https://picsum.photos/id/137/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
-          </div></a
-        >
-        <a href=""
-          ><div class="card">
-            <img src="https://picsum.photos/id/37/300/200" alt="" />
-            <h3 class="title">Project title</h3>
-            <p class="desc">description here</p>
+            <img
+              class="product-image"
+              src="https://drive.google.com/uc?export=view&id=17uzxvqVHJ748zrxIlW4L3KmzTAQzk37x"
+              alt="Technical Document Page Image"
+            />
+            <h3 class="title">Technical Document</h3>
+            <div class="for-box">
+              <img
+                class="freecodeimg"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/640px-FreeCodeCamp_logo.svg.png"
+                alt=""
+              />
+            </div>
+            <div class="tech-box">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
           </div></a
         >
       </div>
     </section>
     <footer id="footer">
-      <a target="_blank" id="profile-link"></a>
-      here is footer
+      <h1>Contact Me Over Below Links</h1>
+      <div class="profile-links">
+        <a class="profile-link" target="_blank" id="profile-link"
+          ><i class="fa-regular fa-user"></i>Profile</a
+        >
+        <a
+          class="profile-link"
+          target="_blank"
+          href="https://www.linkedin.com/in/ersin-mutlu-81224918/"
+          ><i class="fa-brands fa-linkedin"></i>Linkedn</a
+        >
+        <a
+          class="profile-link"
+          target="_blank"
+          href="https://github.com/gorbadil"
+          ><i class="fa-brands fa-github"></i>Github</a
+        >
+        <a
+          class="profile-link"
+          target="_blank"
+          href="mailto:ersin.mutlu@outlook.com.tr"
+          ><i class="fa-regular fa-paper-plane"></i>Mail To Me</a
+        >
+      </div>
+      <div class="seperator"></div>
+      <section class="outpage">
+        This Page Made For freeCodeCamp
+        <i class="fa-brands fa-free-code-camp"></i>
+      </section>
     </footer>
   </body>
 </html>
