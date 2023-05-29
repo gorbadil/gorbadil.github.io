@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+#navbar {
+  position: fixed;
+  width: 97vw;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  z-index: 1;
+  mix-blend-mode: difference;
+}
+.nav-link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0 30px;
+  color: #dddddd;
+}
+
+/* Welcome Section */
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+#welcome-section h1 {
+  font-size: 4rem;
+  transform: translateY(-50%);
+  position: fixed;
+  display: inline;
+  mix-blend-mode: difference;
+}
+#welcome-section p {
+  position: fixed;
+  display: inline;
+  margin-top: 25px;
+}
+
+.logos {
+  position: absolute;
+  bottom: 3vh;
+}
+.logos img {
+  max-height: 100px;
+  margin: 0 30px;
+}
+
+/* Projects */
+
+#projects {
+  position: relative;
+  min-height: 100vh;
+  background-color: #dddddd;
+}
+#projects h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 15px;
+  text-decoration: underline;
+}
+.project-showcase {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  overflow-x: scroll;
+}
+.project-showcase::-webkit-scrollbar {
+  width: 13px;
+}
+.project-showcase::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #dddddd;
+}
+.project-showcase::-webkit-scrollbar-thumb:hover {
+  background-color: #aaaaaa;
+}
+.project-showcase::-webkit-scrollbar-track {
+  border-radius: 9px;
+  background-color: #000000;
+}
+
+/* Project-Cards */
+.card {
+  position: relative;
+  height: 400px;
+  width: 300px;
+  padding: 30px;
+  overflow: hidden;
+  background-color: #444;
+  box-shadow: -3px -3px 30px black;
+}
+.card:not(:first-child) {
+  color: whitesmoke;
+}
+.card img {
+  position: absolute;
+  width: 240px;
+  display: none;
+}
+
+/* Footer */
+#footer {
+  position: relative;
+  min-height: 100vh;
+  background-color: black;
+}
