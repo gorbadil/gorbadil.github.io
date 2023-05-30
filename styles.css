@@ -66,6 +66,7 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
+  z-index: 1;
 }
 .logos img {
   max-height: 100px;
@@ -82,9 +83,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: -1px -70px 40px 16px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: -1px -70px 40px 16px rgba(0, 0, 0, 0.8);
-  box-shadow: -1px -70px 40px 16px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: -1px -100px 50px 16px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: -1px -100px 50px 16px rgba(0, 0, 0, 0.8);
+  box-shadow: -1px -100px 50px 16px rgba(0, 0, 0, 0.8);
 }
 .project-tile {
   font-size: 2.4rem;
