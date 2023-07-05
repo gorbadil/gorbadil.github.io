@@ -265,3 +265,12 @@ h3.title {
   justify-content: center;
   align-items: center;
 }
+
+.memoji{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-50%);
+}
